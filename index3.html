@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+      </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">HTML 5 Features</a></li>
+            <li><a href="index2.html">My Blog</a></li>
+            <li><a href="index3.html">Forms</a></li>
+    </ul>
+      <form>
+        <label for="username"> Username Enter:
+          <input type="text" name="" id="username">
+        </label>
+        <label for="password">Password Enter:
+          <input type="password" name="" id="password">
+        </label>
+    
+        <fieldset>
+          <legend>Gender</legend>
+          <label for="male">Male
+            <input type="radio" name="gender" id="male">
+          </label>
+          <label for="female">Female
+            <input type="radio" name="gender" id="female">
+          </label>
+          <label for="Third-gender">Third-gender
+            <input type="radio" name="gender" id="Third-gender">
+          </label>
+        </fieldset>
+    
+        <fieldset>
+          <legend>Skills</legend>
+          <label for="html">
+            <input type="checkbox" name="skill" id="html"> HTML
+          </label>
+          <label>
+            <input type="checkbox" name="skill"> CSS
+          </label>
+          <label>
+            <input type="checkbox" name="skill"> JS
+          </label>
+          <label>
+            <input type="checkbox" name="skill"> Java
+          </label>
+          <label>
+            <input type="checkbox" name="skill"> Python
+          </label>
+        </fieldset>
+    
+        <fieldset>
+          <legend>About</legend>
+          <textarea rows="5" cols="20" id=""></textarea>
+        </fieldset>
+        <br>
+        <input type="reset" value="Reset">
+    
+      </form>
+</body>
+</html>
